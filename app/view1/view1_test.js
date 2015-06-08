@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.view1 module', function() {
+describe('PortfolioViewer.view1 module', function() {
 
-  beforeEach(module('myApp.view1'));
+  beforeEach(module('PortfolioViewer.view1'));
 
   describe('view1 controller', function(){
 
@@ -17,3 +17,4 @@ describe('myApp.view1 module', function() {
 
 
 // Testing git here...
+// now is there a change?

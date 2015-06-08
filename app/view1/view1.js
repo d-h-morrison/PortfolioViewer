@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('PortfolioViewer.view1', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view1', {
@@ -10,5 +10,5 @@ angular.module('myApp.view1', ['ngRoute'])
 }])
 
 .controller('View1Ctrl', [function() {
-
+     // alert("View1.js!"); /* This is the active view.  Uncomment the alert to demo.*/
 }]);
